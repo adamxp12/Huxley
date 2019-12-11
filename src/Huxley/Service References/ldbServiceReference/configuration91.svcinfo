@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="FQgyaSNM4cDmnhSTU42BZ04bTw0=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="HScHY/JfvSP27A01jO9iaJze/rk=">
   <bindingConfigurations>
-    <bindingConfiguration bindingType="basicHttpBinding" name="LDBServiceSoap">
+    <bindingConfiguration bindingType="basicHttpBinding" name="LDBServiceSoap1">
       <properties>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>LDBServiceSoap</serializedValue>
+          <serializedValue>LDBServiceSoap1</serializedValue>
         </property>
         <property path="/closeTimeout" isComplexType="false" isExplicitlyDefined="true" clrType="System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -110,10 +110,10 @@
         </property>
       </properties>
     </bindingConfiguration>
-    <bindingConfiguration bindingType="basicHttpBinding" name="LDBServiceSoap1">
+    <bindingConfiguration bindingType="basicHttpBinding" name="LDBServiceSoap2">
       <properties>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>LDBServiceSoap1</serializedValue>
+          <serializedValue>LDBServiceSoap2</serializedValue>
         </property>
         <property path="/closeTimeout" isComplexType="false" isExplicitlyDefined="true" clrType="System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -372,10 +372,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="LDBServiceSoap" contract="ldbServiceReference.LDBServiceSoap" bindingType="basicHttpBinding" address="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/ldb9.asmx" bindingConfiguration="LDBServiceSoap">
+    <endpoint name="LDBServiceSoap" contract="ldbServiceReference.LDBServiceSoap" bindingType="basicHttpBinding" address="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/ldb11.asmx" bindingConfiguration="LDBServiceSoap1">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://lite.realtime.nationalrail.co.uk/OpenLDBWS/ldb9.asmx</serializedValue>
+          <serializedValue>https://lite.realtime.nationalrail.co.uk/OpenLDBWS/ldb11.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -384,7 +384,7 @@
           <serializedValue>basicHttpBinding</serializedValue>
         </property>
         <property path="/bindingConfiguration" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>LDBServiceSoap</serializedValue>
+          <serializedValue>LDBServiceSoap1</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>ldbServiceReference.LDBServiceSoap</serializedValue>

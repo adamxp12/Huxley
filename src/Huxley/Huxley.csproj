@@ -23,6 +23,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -224,12 +225,22 @@
     <Content Include="Service References\ldbServiceReference\Huxley.ldbServiceReference.StationBoardWithDetails.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Service References\ldbServiceReference\Huxley.ldbServiceReference.ServiceDetails1.datasource">
+    <Content Include="Service References\ldbServiceReference\Huxley.ldbServiceReference.ServiceDetails.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <None Include="Service References\ldbServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ldbServiceReference\RTTI_2017-02-02_ldb_common_types.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ldbServiceReference\rtti_2017-10-01_ldb.wsdl" />
+    <None Include="Service References\ldbServiceReference\RTTI_2017-10-01_ldb_common_types.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ldbServiceReference\RTTI_2017-10-01_ldb_types.xsd">
+      <SubType>Designer</SubType>
     </None>
     <None Include="Service References\ldbStaffServiceReference\configuration91.svcinfo" />
     <None Include="Service References\ldbStaffServiceReference\configuration.svcinfo" />
@@ -384,7 +395,6 @@
     <None Include="Service References\ldbServiceReference\RTTI_2015-11-27_ldb_types.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ldbServiceReference\rtti_2016-02-16_ldb.wsdl" />
     <None Include="Service References\ldbServiceReference\RTTI_2016-02-16_ldb_common_types.xsd">
       <SubType>Designer</SubType>
     </None>
